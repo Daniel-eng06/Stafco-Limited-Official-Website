@@ -4,7 +4,8 @@
 export const siteData = {
   company: {
     name: 'Stafco Limited',
-    tagline: "Building Ghana's Future Since 2004",
+    tagline: "Building Ghana's Future Since 2006",
+    slogan: 'Your reliable partner down the road',
     phone: '+233 20 000 0000',
     email: 'info@stafcolimited.com',
     address: 'Accra, Greater Accra Region, Ghana',
@@ -14,10 +15,12 @@ export const siteData = {
   },
 
   hero: {
-    badge: 'Est. 2004 · Accra, Ghana',
+    badge: 'Est. 2006 · Accra, Ghana',
     headline: '20 Years of Roads\nThat Connect Ghana',
     subheadline:
-      'From bush tracks to government highways — Stafco Limited has been the quiet force behind Ghana\'s most critical infrastructure for over two decades. We build roads that last.',
+      'From major highways to homes and commercial buildings, Stafco Limited has been a trusted force behind Ghana\'s infrastructure and development for over two decades. We build with quality that lasts.',
+    image: '/images/hero-focus.jpg',
+    imageAlt: 'Road construction equipment working on a new highway section',
     cta1: { label: 'View Our Projects', href: '#projects' },
     cta2: { label: 'Request a Quote', href: '#contact' },
   },
@@ -33,31 +36,31 @@ export const siteData = {
     sectionLabel: 'Our Story',
     headline: 'Two Decades of Laying the\nFoundation for Progress',
     body: [
-      "In 2004, Stafco Limited was founded with one purpose: to build infrastructure that Ghana deserves. Not quick roads that crack in the first rainy season. Not paperwork without craftsmanship. Real roads. Built right. Built to last.",
-      "Over the years, we have delivered road construction, site preparation, earthworks, drainage systems, and civil structures for government agencies and private developers across the country. Each project we take on is a commitment — to communities, to clients, and to the nation.",
+      "In 2006, Stafco Limited was founded with one purpose: to build infrastructure and buildings that Ghana deserves. Not quick fixes that fail in the first rainy season. Real work. Built right. Built to last.",
+      "Over the years, we have delivered road construction, site preparation, earthworks, drainage systems, residential projects, and commercial building works for government agencies and private developers across the country. Each project we take on is a commitment to communities, clients, and the nation.",
       "We are Ghanaian. We understand this soil, this rain, and the weight of every kilometre that connects a farmer to a market, a child to a school, and a nation to its future.",
     ],
-    quote: '"A road is not just asphalt — it is a promise to every community it touches."',
-    quoteAuthor: '— Founder, Stafco Limited',
+    quote: '"A road is not just asphalt. It is a promise to every community it touches."',
+    quoteAuthor: 'Founder, Stafco Limited',
     timeline: [
-      { year: '2004', text: 'Company founded in Accra with a first government road contract.' },
-      { year: '2008', text: 'Expanded into earthworks and site preparation services.' },
-      { year: '2012', text: 'Secured first multi-year government highway rehabilitation contract.' },
-      { year: '2016', text: 'Launched private-sector division — industrial sites, estates, commercial access roads.' },
-      { year: '2020', text: 'Completed landmark drainage and culvert project in the Greater Accra Region.' },
-      { year: '2024', text: 'Celebrating 20 years — and building the next chapter of Ghana\'s roads.' },
+      { year: '2006', text: 'Company founded in Accra with a first government road contract.' },
+      { year: '2010', text: 'Expanded into earthworks and site preparation services.' },
+      { year: '2013', text: 'Secured first multi-year government highway rehabilitation contract.' },
+      { year: '2017', text: 'Launched private-sector division for industrial sites, estates, and commercial access roads.' },
+      { year: '2021', text: 'Completed landmark drainage and culvert project in the Greater Accra Region.' },
+      { year: '2026', text: 'Celebrating 20 years and building the next chapter of Ghana\'s roads.' },
     ],
   },
 
   services: {
     sectionLabel: 'What We Do',
-    headline: 'End-to-End Construction,\nFrom Ground to Road',
-    subheadline: 'We handle every phase of a project — before the road and after. One contractor, full accountability.',
+    headline: 'End-to-End Construction,\nRoads, Homes, and Buildings',
+    subheadline: 'We handle every phase of delivery across roads, civil works, home building, and general construction. One contractor, full accountability.',
     items: [
       {
         icon: 'road',
         title: 'Road Construction & Rehabilitation',
-        desc: 'New road construction and full rehabilitation of existing roads — urban, rural, and highway-grade.',
+        desc: 'New road construction and full rehabilitation of existing roads in urban, rural, and highway settings.',
       },
       {
         icon: 'layers',
@@ -82,7 +85,17 @@ export const siteData = {
       {
         icon: 'clipboard',
         title: 'Contract Management',
-        desc: 'Full project management for government and private-sector infrastructure contracts — on time, on budget.',
+        desc: 'Full project management for government and private-sector infrastructure contracts, on time and on budget.',
+      },
+      {
+        icon: 'home',
+        title: 'Home Building Construction',
+        desc: 'Construction of residential homes from foundation to finishing, including structural and external works.',
+      },
+      {
+        icon: 'building',
+        title: 'Commercial & General Building Works',
+        desc: 'Office, retail, and mixed-use building construction, renovations, and structural development projects.',
       },
     ],
   },
@@ -90,7 +103,7 @@ export const siteData = {
   projects: {
     sectionLabel: 'Our Work',
     headline: 'Our Work\nSpeaks for Itself',
-    subheadline: 'A selection of projects delivered across Ghana — government and private, roads and structures.',
+    subheadline: 'A selection of projects delivered across Ghana for government and private clients, roads and structures.',
     filters: ['All', 'Government', 'Private', 'Roads', 'Structures'],
     items: [
       {
@@ -148,12 +161,12 @@ export const siteData = {
     sectionLabel: 'Why Stafco?',
     headline: 'Not Every Contractor\nHas Earned Your Trust',
     subheadline:
-      "Many road contractors work without documentation, without accountability, and without a track record you can verify. Stafco is different — and here's why it matters.",
+      "Many road contractors work without documentation, without accountability, and without a track record you can verify. Stafco is different, and here's why it matters.",
     pillars: [
       {
         icon: 'calendar',
         title: '20 Years of Proven Excellence',
-        desc: 'Two decades of completed projects across Ghana. Our record is not a promise — it is history.',
+        desc: 'Twenty years of completed projects across Ghana since 2006. Our record is not a promise, it is history.',
       },
       {
         icon: 'shield',
@@ -163,7 +176,7 @@ export const siteData = {
       {
         icon: 'check',
         title: 'End-to-End Delivery',
-        desc: 'From feasibility to final handover — one team, full accountability. No subcontracting your trust.',
+        desc: 'From feasibility to final handover, one team with full accountability. No subcontracting your trust.',
       },
       {
         icon: 'map',
@@ -171,7 +184,7 @@ export const siteData = {
         desc: 'We know Ghana\'s terrain, climate, and communities. We build roads that survive our seasons and serve our people.',
       },
     ],
-    pullQuote: '"In 20 years, we have never left a project unfinished. That is our standard — and that is our promise."',
+    pullQuote: '"In 20 years since 2006, we have never left a project unfinished. That is our standard, and that is our promise."',
   },
 
   testimonials: {
@@ -215,6 +228,17 @@ export const siteData = {
       'Bridge & Structure Works',
       'Contract Management',
       'Other',
+    ],
+    info: [
+      { icon: '📍', label: 'Our Office', value: 'P.O. Box AN 12345, Accra New Town, Greater Accra Region, Ghana' },
+      { icon: '📞', label: 'Phone', value: '+233 30 298 0000 / +233 24 000 0000' },
+      { icon: '✉️', label: 'Email', value: 'info@stafcolimited.com' },
+      { icon: '🏗️', label: 'Site Office', value: 'Adjacent Tema Motorway Interchange, Accra' },
+    ],
+    hours: [
+      { days: 'Monday – Friday', time: '8:00 AM – 5:00 PM' },
+      { days: 'Saturday', time: '9:00 AM – 1:00 PM' },
+      { days: 'Sunday', time: 'Closed' },
     ],
     mapEmbedUrl:
       'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127522.38433413!2d-0.2661028!3d5.6036896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9084b2e7b91d%3A0x5bface05041ca6b6!2sAccra%2C%20Ghana!5e0!3m2!1sen!2sgh!4v1700000000000',
