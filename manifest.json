@@ -1,0 +1,15 @@
+{
+  "short_name": "Stafco",
+  "name": "Stafco Limited Official Website",
+  "icons": [
+    {
+      "src": "images/Original stafco limited logo.PNG",
+      "type": "image/png",
+      "sizes": "512x512 192x192 128x128 64x64"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#bc5a2a",
+  "background_color": "#fff9ee"
+}
