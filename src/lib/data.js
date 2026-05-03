@@ -19,7 +19,7 @@ export const siteData = {
     headline: '20 Years of Infrastructure\nThat Connects Communities',
     subheadline:
       'From major highways to homes and commercial buildings, Stafco Limited has been a trusted force behind modern infrastructure and development for over two decades. We build with quality that lasts across West Africa.',
-    image: '/images/hero-focus.jpg',
+    image: '/images/Heroimage1.jpeg',
     imageAlt: 'Road construction equipment working on a new highway section',
     cta1: { label: 'View Our Projects', href: '#projects' },
     cta2: { label: 'Request a Quote', href: '#contact' },
