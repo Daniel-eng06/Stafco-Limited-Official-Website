@@ -4,20 +4,32 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        cream:      '#F5ECD7',
-        'cream-mid':'#E8D5B0',
-        brown: {
-          DEFAULT: '#2C1A0E',
-          light:   '#6B4C2A',
-          muted:   '#9B7B5C',
+        navy: {
+          DEFAULT: '#0F2A5A',
+          light:   '#1E3A70',
+          dark:    '#0A1F42',
         },
-        burnt:  '#C4501A',
-        gold:   '#B8860B',
-        sand:   '#D4A96A',
+        vibrant: {
+          DEFAULT: '#FF6B35',
+          light:   '#FF8C61',
+          orange:  '#F7931E',
+        },
+        teal: {
+          DEFAULT: '#00B4D8',
+          dark:    '#0096C7',
+        },
+        neutral: {
+          50:  '#F8FAFC',
+          100: '#F1F5F9',
+          200: '#E2E8F0',
+          300: '#CBD5E1',
+          600: '#64748B',
+          900: '#1E293B',
+        },
       },
       fontFamily: {
-        serif: ['"Playfair Display"', 'Georgia', 'serif'],
-        sans:  ['"Lato"', 'sans-serif'],
+        sans:  ['Manrope', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
+        display: ['Plus Jakarta Sans', 'Manrope', 'sans-serif'],
       },
       backgroundImage: {
         'grain': "url('/images/grain.svg')",

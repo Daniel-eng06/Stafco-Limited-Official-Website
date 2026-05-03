@@ -4,7 +4,7 @@
 export const siteData = {
   company: {
     name: 'Stafco Limited',
-    tagline: "Building Ghana's Future Since 2006",
+    tagline: "Building West Africa's Future Since 2006",
     slogan: 'Your reliable partner down the road',
     phone: '+233 20 000 0000',
     email: 'info@stafcolimited.com',
@@ -15,10 +15,10 @@ export const siteData = {
   },
 
   hero: {
-    badge: 'Est. 2006 · Accra, Ghana',
-    headline: '20 Years of Roads\nThat Connect Ghana',
+    badge: 'Est. 2006 · West Africa',
+    headline: '20 Years of Infrastructure\nThat Connects Communities',
     subheadline:
-      'From major highways to homes and commercial buildings, Stafco Limited has been a trusted force behind Ghana\'s infrastructure and development for over two decades. We build with quality that lasts.',
+      'From major highways to homes and commercial buildings, Stafco Limited has been a trusted force behind modern infrastructure and development for over two decades. We build with quality that lasts across West Africa.',
     image: '/images/hero-focus.jpg',
     imageAlt: 'Road construction equipment working on a new highway section',
     cta1: { label: 'View Our Projects', href: '#projects' },
@@ -29,16 +29,15 @@ export const siteData = {
     { value: '20+', label: 'Years of Experience' },
     { value: '100+', label: 'Projects Completed' },
     { value: 'Govt.', label: 'Certified & Licensed' },
-    { value: 'Both', label: 'Public & Private Contracts' },
   ],
 
   about: {
     sectionLabel: 'Our Story',
     headline: 'Two Decades of Laying the\nFoundation for Progress',
     body: [
-      "In 2006, Stafco Limited was founded with one purpose: to build infrastructure and buildings that Ghana deserves. Not quick fixes that fail in the first rainy season. Real work. Built right. Built to last.",
-      "Over the years, we have delivered road construction, site preparation, earthworks, drainage systems, residential projects, and commercial building works for government agencies and private developers across the country. Each project we take on is a commitment to communities, clients, and the nation.",
-      "We are Ghanaian. We understand this soil, this rain, and the weight of every kilometre that connects a farmer to a market, a child to a school, and a nation to its future.",
+      "In 2006, Stafco Limited was founded with one purpose: to build infrastructure and buildings that communities deserve. Not quick fixes that fail in the first rainy season. Real work. Built right. Built to last.",
+      "Over the years, we have delivered road construction, site preparation, earthworks, drainage systems, residential projects, and commercial building works for government agencies and private developers across the region. Each project we take on is a commitment to communities, clients, and the future.",
+      "With deep regional expertise, we understand local terrain, climate challenges, and the weight of every kilometre that connects a farmer to a market, a child to a school, and communities to their future.",
     ],
     quote: '"A road is not just asphalt. It is a promise to every community it touches."',
     quoteAuthor: 'Founder, Stafco Limited',
@@ -48,7 +47,7 @@ export const siteData = {
       { year: '2013', text: 'Secured first multi-year government highway rehabilitation contract.' },
       { year: '2017', text: 'Launched private-sector division for industrial sites, estates, and commercial access roads.' },
       { year: '2021', text: 'Completed landmark drainage and culvert project in the Greater Accra Region.' },
-      { year: '2026', text: 'Celebrating 20 years and building the next chapter of Ghana\'s roads.' },
+      { year: '2026', text: 'Celebrating 20 years and building the next generation of regional infrastructure.' },
     ],
   },
 
@@ -103,7 +102,7 @@ export const siteData = {
   projects: {
     sectionLabel: 'Our Work',
     headline: 'Our Work\nSpeaks for Itself',
-    subheadline: 'A selection of projects delivered across Ghana for government and private clients, roads and structures.',
+    subheadline: 'A selection of projects delivered across the region for government and private clients, roads and structures.',
     filters: ['All', 'Government', 'Private', 'Roads', 'Structures'],
     items: [
       {
@@ -166,12 +165,12 @@ export const siteData = {
       {
         icon: 'calendar',
         title: '20 Years of Proven Excellence',
-        desc: 'Twenty years of completed projects across Ghana since 2006. Our record is not a promise, it is history.',
+        desc: 'Twenty years of completed projects across West Africa since 2006. Our record is not a promise, it is history.',
       },
       {
         icon: 'shield',
         title: 'Licensed & Government Certified',
-        desc: 'Fully licensed for government and private contracts. Every project meets Ghana Standards Authority requirements.',
+        desc: 'Fully licensed for government and private contracts. Every project meets international standards and local requirements.',
       },
       {
         icon: 'check',
@@ -180,8 +179,8 @@ export const siteData = {
       },
       {
         icon: 'map',
-        title: 'Local Knowledge. World-Class Standards.',
-        desc: 'We know Ghana\'s terrain, climate, and communities. We build roads that survive our seasons and serve our people.',
+        title: 'Regional Expertise. World-Class Standards.',
+        desc: 'We understand the regional terrain, climate, and communities. We build roads that survive the seasons and serve the people.',
       },
     ],
     pullQuote: '"In 20 years since 2006, we have never left a project unfinished. That is our standard, and that is our promise."',
@@ -200,10 +199,10 @@ export const siteData = {
       },
       {
         quote:
-          "We have worked with several road contractors in Ghana. Stafco is the only one that truly understands what government-grade delivery means. Honest, reliable, and skilled.",
+          "We have worked with several road contractors in the region. Stafco is the only one that truly understands what government-grade delivery means. Honest, reliable, and skilled.",
         name: 'Ama Owusu',
         title: 'Infrastructure Officer',
-        company: 'Ghana Roads Authority (Client Rep)',
+        company: 'Regional Roads Authority (Client Rep)',
       },
       {
         quote:
