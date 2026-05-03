@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Stafco-Limited-Official-Website/static/css/main.105045a0.css",
-    "main.js": "/Stafco-Limited-Official-Website/static/js/main.41109d4d.js",
+    "main.js": "/Stafco-Limited-Official-Website/static/js/main.5cf80cae.js",
     "static/js/453.14f104b3.chunk.js": "/Stafco-Limited-Official-Website/static/js/453.14f104b3.chunk.js",
     "index.html": "/Stafco-Limited-Official-Website/index.html",
     "main.105045a0.css.map": "/Stafco-Limited-Official-Website/static/css/main.105045a0.css.map",
-    "main.41109d4d.js.map": "/Stafco-Limited-Official-Website/static/js/main.41109d4d.js.map",
+    "main.5cf80cae.js.map": "/Stafco-Limited-Official-Website/static/js/main.5cf80cae.js.map",
     "453.14f104b3.chunk.js.map": "/Stafco-Limited-Official-Website/static/js/453.14f104b3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.105045a0.css",
-    "static/js/main.41109d4d.js"
+    "static/js/main.5cf80cae.js"
   ]
 }
