@@ -34,10 +34,14 @@ export default function ProjectsSection() {
       <div className="cards-grid">
         {filteredProjects.map((project) => (
           <article className="info-card project-card" key={`${project.title}-${project.year}`}>
-            <div className="project-top" aria-hidden="true" />
-            <p className="tag">{project.tag ?? 'Project'}</p>
-            <h3>{project.title}</h3>
-            <p>{project.location} - {project.year}</p>
+            {project.image
+              ? <img className="project-thumb" src={`${process.env.PUBLIC_URL}${project.image}`} alt={project.title} />
+              : <div className="project-top" aria-hidden="true" />}
+            <div className="project-content">
+              <p className="tag">{project.tag ?? 'Project'}</p>
+              <h3>{project.title}</h3>
+              <p>{project.location}</p>
+            </div>
           </article>
         ))}
       </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import { siteData } from '../../lib/data';
 
 const pillars = siteData?.whyUs?.pillars ?? [];
+const staffImageUrl = `${process.env.PUBLIC_URL}/images/Staff.jpeg`;
 
 export default function WhyUsSection() {
   return (
@@ -17,8 +18,11 @@ export default function WhyUsSection() {
               <p>{pillar.desc}</p>
             </article>
           ))}
+          <blockquote className="full-quote why-pull-quote">{siteData?.whyUs?.pullQuote ?? ''}</blockquote>
+          <div className="why-staff-image">
+            <img src={staffImageUrl} alt="Stafco staff" />
+          </div>
         </div>
-        <blockquote className="full-quote">{siteData?.whyUs?.pullQuote ?? ''}</blockquote>
       </div>
     </section>
   );

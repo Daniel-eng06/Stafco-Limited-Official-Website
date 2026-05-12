@@ -109,7 +109,7 @@ export const siteData = {
     filters: ['All', 'Roads', 'Buildings', 'Sanitation', 'Government', 'Private'],
     items: [
       {
-        image: '/images/project-1.jpg',
+        image: '/images/Road3.jpeg',
         title: 'Rehabilitation of HweeHwee Jn.–Akwasiho Feeder Road PH.1',
         location: 'Eastern Region',
         client: 'Department of Feeder Roads, E/R',
@@ -118,7 +118,7 @@ export const siteData = {
         tag: 'Roads',
       },
       {
-        image: '/images/project-2.jpg',
+        image: '/images/Road4.jpeg',
         title: 'Bituminous Surfacing of Fontonfrom Estate Roads',
         location: 'Dawhenya, Greater Accra',
         client: 'Prof. Joe Tufour, Accra',
@@ -126,17 +126,9 @@ export const siteData = {
         category: ['Private', 'Roads'],
         tag: 'Roads',
       },
+
       {
-        image: '/images/project-3.jpg',
-        title: 'Drainage Works at Park, Awoshie',
-        location: 'Greater Accra Region',
-        client: 'Department of Urban Roads, Amasaman',
-        desc: 'Construction of concrete retaining wall and U-drains.',
-        category: ['Government', 'Roads'],
-        tag: 'Roads',
-      },
-      {
-        image: '/images/project-4.jpg',
+        image: '/images/prasofeeder.jpeg',
         title: 'Surfacing of Praso–Bimponagya–Bimponso Feeder Road',
         location: 'Central Region',
         client: 'Department of Feeder Roads, C/R',
@@ -145,7 +137,7 @@ export const siteData = {
         tag: 'Roads',
       },
       {
-        image: '/images/project-5.jpg',
+        image: '/images/House3.jpeg',
         title: 'Construction of 2-Storey Science Laboratory Complex',
         location: 'Kwahu Tafo',
         client: 'Ministry of Education',
@@ -154,7 +146,7 @@ export const siteData = {
         tag: 'Buildings',
       },
       {
-        image: '/images/project-6.jpg',
+        image: '/images/House2.jpeg',
         title: 'Construction of Hospital Ward & Theatre Block',
         location: 'Asamankese',
         client: 'South Akyem District Assembly',
@@ -163,7 +155,7 @@ export const siteData = {
         tag: 'Buildings',
       },
       {
-        image: '/images/project-7.jpg',
+        image: '/images/House1.jpeg',
         title: 'Construction of 6-Bedroom House at Spintex',
         location: 'Spintex Road, Accra',
         client: 'Dr. Ernest Ofori',
@@ -172,25 +164,7 @@ export const siteData = {
         tag: 'Buildings',
       },
       {
-        image: '/images/project-8.jpg',
-        title: 'Final Waste Disposal Site & Sanitary Transfer Sites',
-        location: 'Maame Krobo, Eastern Region',
-        client: 'Kwahu North District Assembly',
-        desc: 'Clearing, landfill construction, sludge drying bed, transfer site, skip container fabrication, 800m gravel road construction.',
-        category: ['Government', 'Sanitation'],
-        tag: 'Sanitation',
-      },
-      {
-        image: '/images/project-9.jpg',
-        title: 'Construction and Surfacing of Oframase–Atibie Feeder Roads',
-        location: 'Eastern Region',
-        client: 'Department of Feeder Roads, E/R',
-        desc: 'Clearing, formation, blasting, cutting, culverts, drains, stone pitching, sub-base, base, primer seal, seal coat. (9.50km)',
-        category: ['Government', 'Roads'],
-        tag: 'Roads',
-      },
-      {
-        image: '/images/project-10.jpg',
+        image: '/images/Road2.jpeg',
         title: 'Bitumen Surface of Vakpo–Tsukpe–Botoku Feeder Road',
         location: 'Volta Region',
         client: 'Department of Feeder Roads, V/R',
@@ -199,7 +173,7 @@ export const siteData = {
         tag: 'Roads',
       },
       {
-        image: '/images/project-11.jpg',
+        image: '/images/storey building.jpeg',
         title: 'Construction of 2-Storey Community Post Office',
         location: 'Old Tafo, Kumasi',
         client: 'Ghana Post / Ministry of Communications',
@@ -208,7 +182,7 @@ export const siteData = {
         tag: 'Buildings',
       },
       {
-        image: '/images/project-12.jpg',
+        image: '/images/New Hero2.jpeg',
         title: 'Resealing of Brekum–Dormaa Ahenkro Road',
         location: 'Brong Ahafo',
         client: 'Ghana Highway Authority',
@@ -216,6 +190,25 @@ export const siteData = {
         category: ['Government', 'Roads'],
         tag: 'Roads',
       },
+      {
+        image: '/images/House4.jpeg',
+        title: 'Construction of 2-Storey Girls Dormitory Block, Kwegyir Aggrey SHS',
+        location: 'Cape Coast, Central Region',
+        client: 'Ghana Education Service / Ministry of Education',
+        desc: 'Construction of a two-storey girls dormitory block including rooms, ablution facilities, and ancillary works for Kwegyir Aggrey Senior High School.',
+        category: ['Government', 'Buildings'],
+        tag: 'Buildings',
+      },
+      {
+        image: '/images/Tafohouse.jpeg',
+        title: 'Kwahu-Tafo Community Police Station (Under Construction)',
+        location: 'Kwahu Tafo, Eastern Region',
+        client: 'Ghana Police Service / Ministry of Interior',
+        desc: 'Construction of a community police station including offices, holding facility, and ancillary works.',
+        category: ['Government', 'Buildings'],
+        tag: 'Buildings',
+      },
+      
     ],
   },
 

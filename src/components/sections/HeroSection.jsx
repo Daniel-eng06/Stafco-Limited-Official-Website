@@ -1,7 +1,7 @@
 import React from 'react';
 import { siteData } from '../../lib/data';
 
-const heroBackgroundUrl = `${process.env.PUBLIC_URL}/images/New Hero.jpeg`;
+const heroBackgroundUrl = `${process.env.PUBLIC_URL}/images/New Hero2.jpeg`;
 
 export default function HeroSection() {
   return (
