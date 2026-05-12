@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Stafco-Limited-Official-Website/static/css/main.ddad2b27.css",
-    "main.js": "/Stafco-Limited-Official-Website/static/js/main.dc738edc.js",
+    "main.css": "/Stafco-Limited-Official-Website/static/css/main.cea0996d.css",
+    "main.js": "/Stafco-Limited-Official-Website/static/js/main.f8728c58.js",
     "static/js/453.14f104b3.chunk.js": "/Stafco-Limited-Official-Website/static/js/453.14f104b3.chunk.js",
     "index.html": "/Stafco-Limited-Official-Website/index.html",
-    "main.ddad2b27.css.map": "/Stafco-Limited-Official-Website/static/css/main.ddad2b27.css.map",
-    "main.dc738edc.js.map": "/Stafco-Limited-Official-Website/static/js/main.dc738edc.js.map",
+    "main.cea0996d.css.map": "/Stafco-Limited-Official-Website/static/css/main.cea0996d.css.map",
+    "main.f8728c58.js.map": "/Stafco-Limited-Official-Website/static/js/main.f8728c58.js.map",
     "453.14f104b3.chunk.js.map": "/Stafco-Limited-Official-Website/static/js/453.14f104b3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddad2b27.css",
-    "static/js/main.dc738edc.js"
+    "static/css/main.cea0996d.css",
+    "static/js/main.f8728c58.js"
   ]
 }
